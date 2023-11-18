@@ -7,8 +7,8 @@ let pizzaPlace = "Domino";
 let numberOfToppings = 10;
 
 // Print the variables and their types.
-console.log(typeof pizzaPlace);
-console.log(typeof numberOfToppings);
+console.log(typeof pizzaPlace + ` ` + pizzaPlace);
+console.log(typeof numberOfToppings + ` ` + numberOfToppings);
 
 // Print a template literal that uses both variables to construct a short sentence about your Pizza Place.
 console.log(
