@@ -1,6 +1,6 @@
 import { loadTXTContent } from "./common.js";
 
-const confirmationContentPath = "/week4_homework/docs/contact.txt";
+const confirmationContentPath = "../docs/contact.txt";
 
 window.loadMenu();
 
