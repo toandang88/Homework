@@ -1,0 +1,127 @@
+html {
+  background-color: antiquewhite;
+}
+
+body {
+  text-align: center;
+  font-size: 18px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+img {
+  height: 100%;
+}
+
+div {
+  border: 2px solid burlywood;
+  margin: 10px;
+}
+
+#introPic {
+  width: 50%;
+  height: 50%;
+}
+
+#top{
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+  ;
+}
+
+#earlyLife, #earlyCareer, #proCareer, #acting, #personal{
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+
+}
+
+#achievementsContainer{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
+  border: 0px;
+}
+#achievements > li{
+  text-align: left;
+  width: 900px;
+}
+
+#earlyLife > p, #earlyCareer >p, #proCareer > p, #acting >p, #personal > p{
+  width: 900px;;
+}
+
+#bio {
+  position: relative;
+  width: 900px;
+  padding: 0;
+
+}
+#bio > li {
+  list-style-type: none;
+  text-align: left;
+
+}
+
+#pro {
+  width: auto;
+}
+
+/* #earlyCareer > img{
+  max-width: 500px;
+} */
+
+
+#proCareer > img, #acting >img, #earlyCareer >img{
+  width: 500px;
+  height: 400px;
+
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    font-size: 16px;
+  }
+
+  #introPic {
+    width: 100%;
+    height: auto;
+  }
+
+  #top {
+    height: auto;
+  }
+
+  #achievements > li,
+  #earlyLife > p,
+  #earlyCareer > p,
+  #proCareer > p,
+  #acting > p,
+  #personal > p,
+  #bio,
+  #proCareer > img,
+  #acting > img,#earlyCareer >img {
+    width: 100%;
+  }
+
+  #achievementsContainer,
+  #earlyLife,
+  #earlyCareer,
+  #proCareer,
+  #acting,
+  #personal,
+  #bio {
+    text-align: left;
+    padding: 0 0 0 10px;
+  }
+}
